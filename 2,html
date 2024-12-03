@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .menu-section {
+            margin-bottom: 20px;
+        }
+
+        .menu-section h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .menu-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu-section li {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .menu-section li:last-child {
+            border-bottom: none;
+        }
+
+        .menu-section li:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Gujarati Hotel Menu</h1>
+        
+        <div class="menu-section">
+            <h2>Breakfast</h2>
+            <ul>
+                <li>Poha - ₹50.00</li>
+                <li>Thepla - ₹60.00</li>
+                <li>Khakhra - ₹40.00</li>
+                <li>Chai (Tea) - ₹20.00</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>Lunch</h2>
+            <ul>
+                <li>Thali (Gujarati Thali) - ₹150.00</li>
+                <li>Dal Dhokli - ₹80.00</li>
+                <li>Undhiyu - ₹120.00</li>
+                <li>Khichdi - ₹70.00</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>Dinner</h2>
+            <ul>
+                <li>Shahi Paneer - ₹180.00</li>
+                <li>Bhindi Masala - ₹120.00</li>
+                <li>Roti (Phulka) - ₹20.00</li>
+                <li>Gajar Halwa - ₹90.00</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>Drinks</h2>
+            <ul>
+                <li>Chaas (Buttermilk) - ₹30.00</li>
+                <li>Lassi - ₹50.00</li>
+                <li>Masala Chai - ₹25.00</li>
+                <li>Cold Drink - ₹20.00</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

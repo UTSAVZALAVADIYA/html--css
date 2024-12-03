@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up and Sign In Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .signup-section {
+            background: linear-gradient(to bottom, #a8e063, #56ab2f);
+            width: 50%;
+            padding: 40px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .signup-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .signup-button {
+            display: flex;
+            align-items: center;
+            background-color: #3b5998;
+            color: white;
+            padding: 12px;
+            border-radius: 5px;
+            margin: 10px 0;
+            text-decoration: none;
+            font-size: 16px;
+            justify-content: center;
+            width: 100%;
+        }
+        .signup-button img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .email { background-color: #3b5998; }
+        .google { background-color: #db4437; }
+        .facebook { background-color: #4267B2; }
+        .linkedin { background-color: #0077b5; }
+        
+        .signin-section {
+            width: 50%;
+            padding: 40px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .signin-section h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .signin-section p {
+            color: #888;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .form-input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .signin-button {
+            background: linear-gradient(to right, #a8e063, #56ab2f);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="signup-section">
+            <h2>SIGNUP WITH</h2>
+            <a href="#" class="signup-button email">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_Icon.png" alt="Email Icon">
+                E-mail
+            </a>
+            <a href="#" class="signup-button google">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google Icon">
+                Google
+            </a>
+            <a href="#" class="signup-button facebook">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Icon">
+                Facebook
+            </a>
+            <a href="#" class="signup-button linkedin">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Icon">
+                Linkedin
+            </a>
+        </div>
+        
+        
+        <div class="signin-section">
+            <h2>SIGN IN</h2>
+            <p>Create an Account</p>
+            <input type="text" class="form-input" placeholder="username">
+            <input type="email" class="form-input" placeholder="email">
+            <input type="password" class="form-input" placeholder="password">
+            <button class="signin-button">SIGN IN</button>
+        </div>
+    </div>
+</body>
+</html>

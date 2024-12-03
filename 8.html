@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Holy Grail Layout with CSS Grid in HTML</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 200px 600px 200px; 
+            grid-template-rows: 100px 500px 100px; 
+            gap: 10px;
+            height: 100vh;
+        }
+        .header, .nav, .main, .sidebar, .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 20px;
+        }
+        .header { background-color: #007bff; }
+        .nav { background-color: #7db3ff; }
+        .main { background-color: #b0b0b0; }
+        .sidebar { background-color: #7db3ff; }
+        .footer { background-color: #007bff; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header" style="grid-column: 1 / span 3;">Holy Grail Layout</div>
+    <div class="nav" style="grid-column: 1;">Nav</div>
+    <div class="main" style="grid-column: 2;">Main Content</div>
+    <div class="sidebar" style="grid-column: 3;">Sidebar</div>
+    <div class="footer" style="grid-column: 1 / span 3;">Footer</div>
+</div>
+
+</body>
+</html>
